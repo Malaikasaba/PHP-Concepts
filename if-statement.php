@@ -47,5 +47,57 @@ if($x > 10){
 }else{
     echo "X is smaller";
 }
+
+// if-else and else-if statement
+// Syntax
+/*
+if(contion1){
+statement 1
+}elseif(condition 2){
+statement 2
+}else{
+Default statement 
+}
+*/
+
+// Also this syntax fie else-if and endif
+if(condition 1):
+elseif(condition 2):
+else:
+endif;
+
+
+// Examples
+$grade = 89;
+if($grade >= 80 && $grade <= 100){
+    echo " Grade A1";
+}elseif($grade >= 70 && $grade <= 80){
+    echo " Grade A";
+}elseif($grade >= 60 && $grade <= 70){
+    echo " Grade B";
+}elseif($grade >= 50 && $grade <= 60){
+    echo " Grade C";
+}elseif($grade >= 0 && $grade <= 50){
+    echo "You are Fail";
+}else{
+    echo "Please enter the valid percentage";
+}
+// Second Way
+$marks = 80;
+if($marks >= 80 && $marks <= 100):
+    echo " Grade A1";
+elseif($marks >= 70 && $marks <= 80):
+    echo " Grade A";
+elseif($marks >= 60 && $marks <= 70):
+    echo " Grade B";
+:elseif($marks >= 50 && $marks <= 60):
+    echo " Grade C";
+elseif($marks >= 0 && $marks <= 50):
+    echo "You are Fail";
+else:
+    echo "Please enter the valid percentage";
+endif;
+
+
 ?>
 
