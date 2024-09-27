@@ -1,6 +1,6 @@
 <?php
 
-// if-statement in php
+//  if and if-statement in php
 
 /* if(condition){
     statement
@@ -28,4 +28,24 @@ $d = 30;
 if($c == $d):
     echo "C and D are equal";
 endif;
+
+
+// If-else Statement 
+// Syntax 
+/*
+if(condition True){
+Statement for True
+}else{
+Statement for False
+}
+*/
+
+// Example
+$x = 20;
+if($x > 10){
+    echo "X is greater";
+}else{
+    echo "X is smaller";
+}
 ?>
+
